@@ -1,0 +1,92 @@
+.parent{
+    font-family:'Inter', sans-serif;;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container{
+    position: relative;
+    width: 299.39px;
+    height: 414px;
+    display: flex;
+    flex-direction:column;
+}
+
+.graytext{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    height: 70px;
+    font-size:smaller;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+.animatedbutton {
+    transition: all 100ms ease-in; 
+}
+
+
+.leftbutton{
+    background-color:#001AFF ;
+    color:white;
+    width: 100%;
+    border-radius: 3px;
+    height: 40px;
+    border: 0;
+}
+
+.leftbutton:hover{
+    background-color:#2a0ec7;
+}
+
+.rightbutton{
+    color:#001AFF ;
+    background-color: #D7D7D7;
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    margin-left:3px;
+    border: 0;
+}
+
+.rightbutton:hover{
+    background-color: #b0b0b0;
+}
+
+.midcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+}
+
+.btext{
+    font-weight:bolder;
+    font-size: large;
+}
+
+.pandapic{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.picture{
+    height: 415px;
+}
+
+
+

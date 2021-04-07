@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>HomeWork</title>
+</head>
+<body>
+    <h1> Проблема Фибоначчи</h1>
+    <input type="text" id = "id" size="40">
+    <button onclick="alertfib(fibonacciProblem(12))">Решим ее!</button>
+</body>
+<script>
+    function alertfib(){
+        let a = document.getElementById("id").value
+        alert(fibonacciProblem(a))
+    }
+
+    /**
+     * Count the number by fibonacci index
+     * @param {number} n an index of a required number in fibonacci sequence
+     * @returns {number} a fibonacci by index
+     */
+    function fibonacciProblem(n){
+        if (n === 1 || n === 2){
+            return 1
+        }
+        return fibonacciProblem(n - 2) + fibonacciProblem(n-1)
+    }
+</script>

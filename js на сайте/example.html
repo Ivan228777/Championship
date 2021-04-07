@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>HomeWork</title>
+</head>
+<body>
+    <h1> Проблема Фибоначчи</h1>
+    <input type="text" id = "id" size="40">
+    <button onclick="alert(fibonacciProblem())">Решим ее!</button>
+</body>
+<script>
+    function fibonacciProblem(n){
+        let a = document.getElementById("id").value;
+        if (a === 1 || a === 2){
+            return 1
+        }
+        return fibonacciProblem(a - 2) + fibonacciProblem(a - 1)
+    }
+</script>
